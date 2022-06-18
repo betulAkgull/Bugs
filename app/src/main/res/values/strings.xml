@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">bugsV2</string>
+    <string name="selected_language">English</string>
+    <string name="language">Hi Bugs</string>
+</resources>

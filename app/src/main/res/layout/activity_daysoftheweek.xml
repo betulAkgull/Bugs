@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daysoftheweek"
+    android:background="#EBFDFF">
+
+    <Button
+        android:id="@+id/checkDays"
+        android:layout_width="129dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@color/darkBlue"
+        android:fontFamily="@font/coiny"
+        android:padding="8dp"
+        android:text="Check"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="335dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/coiny"
+        android:includeFontPadding="false"
+        android:text="Enter the days of the week"
+        android:textColor="#0C447D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/imageView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bluerectangle" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/imageView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView19"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bluerectangle"/>
+
+    <EditText
+        android:id="@+id/saturday"
+        android:layout_width="127dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="your answer"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+        app:layout_constraintEnd_toEndOf="@+id/imageView21"
+        app:layout_constraintStart_toStartOf="@+id/imageView21"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        app:srcCompat="@drawable/bluerectangle" />
+
+    <EditText
+        android:id="@+id/sunday"
+        android:layout_width="136dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="your answer"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+        app:layout_constraintEnd_toEndOf="@+id/imageView20"
+        app:layout_constraintStart_toStartOf="@+id/imageView20"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bluerectangle" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bluerectangle" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947"
+        app:srcCompat="@drawable/bluerectangle" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bluerectangle" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/imageView24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843"
+        app:srcCompat="@drawable/numbers" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/numbers_1" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/numbers_2" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="61dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView27"
+        app:layout_constraintEnd_toStartOf="@+id/thursday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/numbers_3" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toStartOf="@+id/friday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/numbers_4" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView29"
+        app:layout_constraintEnd_toStartOf="@+id/saturday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/numbers_5" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/numbers_6" />
+
+    <EditText
+        android:id="@+id/monday"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:hint="ex. monday"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toStartOf="@+id/imageView41"
+        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="@+id/imageView15"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/tuesday"
+        android:layout_width="117dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="your answer"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+        app:layout_constraintStart_toEndOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.628"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/friday"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="249dp"
+        android:ems="10"
+        android:hint="your answer"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView40"
+        app:layout_constraintStart_toEndOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.069"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/wednesday"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="80dp"
+        android:ems="10"
+        android:hint="your answer"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/thursday"
+        app:layout_constraintEnd_toStartOf="@+id/imageView39"
+        app:layout_constraintStart_toEndOf="@+id/imageView25"
+        app:layout_constraintTop_toTopOf="@+id/tuesday"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/thursday"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="your answer"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView26"
+        app:layout_constraintTop_toTopOf="@+id/imageView26"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="99dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/thursday"
+        app:srcCompat="@drawable/typography_4" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="168dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.785"
+        app:srcCompat="@drawable/typography_5" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="137dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.883"
+        app:srcCompat="@drawable/typography_6" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="166dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/wednesday"
+        app:srcCompat="@drawable/days_2" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="158dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/friday"
+        app:layout_constraintTop_toTopOf="@+id/imageView19"
+        app:srcCompat="@drawable/days_3" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/monday"
+        app:layout_constraintTop_toTopOf="@+id/imageView15"
+        app:srcCompat="@drawable/days2" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="161dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33"
+        app:srcCompat="@drawable/days_1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

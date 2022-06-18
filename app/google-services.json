@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "456113258140",
+    "project_id": "bugsv22",
+    "storage_bucket": "bugsv22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456113258140:android:7ee19c5b8a900cc672f759",
+        "android_client_info": {
+          "package_name": "com.example.bugsv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456113258140-rnpormm02bi81k4ge0gokeo8g1mrh0k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqenqLXIDnngn3emNWGN5LT2l1mKTeWq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456113258140-rnpormm02bi81k4ge0gokeo8g1mrh0k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

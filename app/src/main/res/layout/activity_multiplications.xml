@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBFDFF"
+    tools:context=".multiplications">
+
+    <Button
+        android:id="@+id/checkMultiplication"
+        android:layout_width="133dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/darkBlue"
+        android:fontFamily="@font/coiny"
+        android:padding="8dp"
+        android:text="Check"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/QuestionMultiplication"
+        android:layout_width="342dp"
+        android:layout_height="105dp"
+        android:fontFamily="@font/coiny"
+        android:includeFontPadding="false"
+        android:text="Answer the following multiplication"
+        android:textColor="#0C447D"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <ImageView
+        android:id="@+id/imageView78"
+        android:layout_width="192dp"
+        android:layout_height="141dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView80"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371"
+        app:srcCompat="@drawable/path_1" />
+
+    <ImageView
+        android:id="@+id/imageView80"
+        android:layout_width="203dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378"
+        app:srcCompat="@drawable/path_1" />
+
+    <ImageView
+        android:id="@+id/imageView81"
+        android:layout_width="134dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383"
+        app:srcCompat="@drawable/bluex" />
+
+    <EditText
+        android:id="@+id/AnswerOfMultiplication"
+        android:layout_width="309dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="152dp"
+        android:ems="10"
+        android:hint="example :12 "
+        android:textSize="30dp"
+        android:textColor="@color/darkBlue"
+        android:fontFamily="@font/coiny"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Number1"
+        android:layout_width="60dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
+        android:text=" "
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/coiny"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView78"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/Number2"
+        android:layout_width="57dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="64dp"
+        android:text=" "
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/coiny"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView80"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
